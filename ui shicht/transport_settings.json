@@ -1,0 +1,22 @@
+{
+    "colors": {
+        "ПДМ": "#3d46f5",
+        "АС": "#3d46f5",
+        "Вертушка": "#3d46f5",
+        "Забой": "#3d46f5",
+        "ЭКГ": "#3d46f5",
+        "Бункер Дробилки": "#3d46f5",
+        "Отвал": "#3d46f5",
+        "Склад": "#3d46f5"
+    },
+    "images": {
+        "ПДМ": "./ui shicht/pics/lhd.svg",
+        "АС": "./ui shicht/pics/truck.svg",
+        "Вертушка": "./ui shicht/pics/train.svg",
+        "Забой": "./ui shicht/pics/shaft.svg",
+        "ЭКГ": "./ui shicht/pics/excavator.svg",
+        "Бункер Дробилки": "./ui shicht/pics/crusher.svg",
+        "Отвал": "./ui shicht/pics/dump.svg",
+        "Склад": "./ui shicht/pics/stoneheap.svg"
+    }
+}
