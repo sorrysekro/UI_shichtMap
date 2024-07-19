@@ -19,7 +19,7 @@
                     <img class="play-forward" id="player-button" src="./icons/play-forward.svg" alt="play-forward">
                     <img class="refresh-button" id="player-button" src="./icons/refresh.svg" alt="refresh-button">
     
-                    <input type="text" name="count" id="condition" value="1">
+                    <input type="text" name="count" id="condition" value="-1">
                 </div>
     
                 <div class="scroll-bar">
@@ -29,27 +29,42 @@
                     </svg>
                 </div>
             </div>
-            <button class="btnDownload"download>Save</button>
+            <button class="btnDownload" download>Save</button>
+            <input type="file" name="" class="upload" value="">
+        </div>
+
+        <div class="modal-view">
         </div>
 
         <svg id="d3_line"></svg>
     
-        <div class="table" hidden>
+        <div class="table">
             <div class="content-table-left">
                 <div class="header">
-                    <p id="column-first">Транспорт</p>
-                    <p id="column-first">Операция</p>
-                    <p id="column-first">Время начала</p>
-                    <p id="column-first">Время окончания</p>
-                    <p id="column-first">Пункт отправления</p>
-                    <p id="column-first">Пункт назначения</p>
-                    <p id="column-first">Текущий груз, т</p>
-                    <p id="column-first">Концентрация</p>
+                    <p class="column-p">Транспорт</p>
+                    <p class="column-p">Операция</p>
+                    <p class="column-p">Время начала</p>
+                    <p class="column-p">Время окончания</p>
+                    <p class="column-p">Пункт отправления</p>
+                    <p class="column-p">Пункт назначения</p>
+                    <p class="column-p">Текущий груз, т</p>
+                    <p class="column-p">Концентрация</p>
                 </div>
+                <div class="lists"></div>
             </div>
             <div class="content-table-right">
                 <input type="text" name="search" id="searchInput" value="Search...">
-                <div class="content-block"></div>
+                <div class="p-div">                
+                    <p class="h-object">Объект</p>
+                    <p class="h-count">Текущий груз, т</p>
+                    <p class="h-map">Текущий пункт</p>
+                </div>
+
+                <div class="content-block">
+                    <div class="column-object"></div>
+                    <div class="column-count"></div>
+                    <div class="column-map"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -57,8 +72,6 @@
 
     <script src="d3.v7.js"></script>
     <script src="script.js"></script>
-    <script src="table.js"></script>
-    <script type="module"></script>
 </body>
 
 </html>

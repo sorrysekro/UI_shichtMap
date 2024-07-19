@@ -86,8 +86,6 @@ allData.then((res) => {
                 "name": name,
                 "raw_material": raw_material,
                 "type": type,
-                'x': x,
-                'y': y
             })
         })
 
@@ -121,28 +119,57 @@ allData.then((res) => {
 
     })
 
+    document.querySelector('.upload').addEventListener('change', function() {
+        var GetFile = new FileReader();
 
-    window.addEventListener('onmousedown', function () {
+        GetFile .onload=function(){
+            const info = GetFile.result;
+            const norm = JSON.parse(info);
+            const dataArray = norm[0].data;
+            console.log(dataArray);
+            dataArray.forEach(index => {
+                const classTo = index.name.replace('/', '\\/');
+                const count = index.raw_material;
+                const type = index.type;
+                const x = index.x;
+                const y = index.y;
+                
+                svg.select('.' + classTo)
+                .attr('raw_material', () => count)
+                .attr('type', () => type)
+                .attr('x', () => x)
+                .attr('y', () => y)
 
-        let scr = (".scroll");
-        scr.onmousedown(function (event) {
+                svg.select('#field' + classTo)
+                .attr('x', () => x - marginX)
+                .attr('y', () => y)
+            })
 
-            let startX = this.scrollLeft + event.pageX;
-            let startY = this.scrollTop + event.pageY;
 
-            scr.onmousemove(function () {
+        }
+          GetFile.readAsText(this.files[0]);
+      })
+    // window.addEventListener('onmousedown', function () {
 
-                this.scrollLeft = startX - event.pageX;
-                this.scrollTop = startY - event.pageY;
-                return false;
-            });
-        });
+    //     let scr = (".scroll");
+    //     scr.onmousedown(function (event) {
 
-        window.onmouseover(function () {
-            scr.off("onmousemove");
-        });
+    //         let startX = this.scrollLeft + event.pageX;
+    //         let startY = this.scrollTop + event.pageY;
 
-    })
+    //         scr.onmousemove(function () {
+
+    //             this.scrollLeft = startX - event.pageX;
+    //             this.scrollTop = startY - event.pageY;
+    //             return false;
+    //         });
+    //     });
+
+    //     window.onmouseover(function () {
+    //         scr.off("onmousemove");
+    //     });
+
+    // })
 
     svg.selectAll('circle')
         .data(graph_node)
@@ -169,7 +196,7 @@ allData.then((res) => {
         .data(graph_node)
         .enter()
         .append("svg:image")
-        .attr('id', d => d.id)
+        .attr('class', d => d.id)
         .attr('x', d => d.x)
         .attr('y', d => d.y)
         .data(capacity_value)
@@ -233,6 +260,56 @@ allData.then((res) => {
         .attr('y', d => node_y(d.node) - marginY)
         .text(d => d.id);
 
+    let leftTable = document.querySelector(".lists");
+
+    
+let i = 0;
+    transport.forEach(index => {
+        const tableElem = document.createElement('div');
+        const car = document.createElement('p');
+        const action = document.createElement('p');
+        const timeStart = document.createElement('p');
+        const timeEnd = document.createElement('p');
+        const locationFrom = document.createElement('p');
+        const locationTo = document.createElement('p');
+        const count = document.createElement('p');
+        const type = document.createElement('p');
+
+        car.setAttribute('class', 'tableCar');
+        action.setAttribute('class', 'tableActiom')
+        timeStart.setAttribute('class', 'tableStart')
+        timeEnd.setAttribute('class', 'tableEnd')
+        locationFrom.setAttribute('class', 'tableLocationFrom')
+        locationTo.setAttribute('class', 'tableLocationTo')    
+        count.setAttribute('class', 'tableCount')
+        type.setAttribute('class', 'tableType')
+        leftTable.append(tableElem);
+        tableElem.setAttribute('class', 'list-table' + index.id);
+        tableElem.setAttribute('id', 'list');
+
+        console.log(index, i);
+        tableElem.appendChild(car);
+        tableElem.appendChild(action);
+        tableElem.appendChild(timeStart);
+        tableElem.appendChild(timeEnd);
+        tableElem.appendChild(locationFrom);
+        tableElem.appendChild(locationTo);
+        tableElem.appendChild(count);
+        tableElem.appendChild(type);
+        car.textContent = index.id;
+        action.textContent = "Ожидание";
+        timeStart.textContent = 1;
+        timeEnd.textContent = 2;
+        locationFrom.textContent = index.node;
+        locationTo.textContent = "nahuy"
+        count.textContent = 1000
+        type.textContent = 1
+        console.log(i);
+        i++
+    })
+
+   
+
     // svg.selectAll('text.iconname')
     //     .data(transport)
     //     .enter()
@@ -243,41 +320,48 @@ allData.then((res) => {
 
 
     // let timedX, timedY;
+    const taskLength = actions.length;
+    const maximumCountTask = (taskLength) => {
+        let maximize = 0;
+        for(i = 0; i < taskLength - 1; i++){
+            if(Object.values(actions)[i].time < Object.values(actions)[i+1].time){
+                maximize = Object.values(actions)[i+1].time;
+            };
+        }
+        console.log(maximize, taskLength);
+        return maximize;
+    }
+
+    function loop(countTask) {
+        window.setTimeout(function () {
+            let i = 0;
+            let allTime = actions.filter((index) => index.time == countTask);
+            console.log(allTime);
+            while (i < allTime.length) {
+                if(keys_object(allTime[i])[1] == 'mining'){
+                    mining_action(allTime[i])
+                }
+                else if(keys_object(allTime[i])[1] == 'loading'){
+                    loading_action(allTime[i])
+                }
+                else if(keys_object(allTime[i])[1] == 'travel'){
+                    travel_action(allTime[i])
+                }
+                else{
+                    set_type_action(allTime[i])
+                }
+
+                i++;
+
+            }
+            condition.value = countTask;
+        }, countTask * speed);
+    };
 
     playBtn.addEventListener('click', () => {
-        for (countTask = -1; countTask <= 120; countTask++) {
-            (function loop(countTask) {
-                window.setTimeout(function () {
-                    let i = 0;
-                    let allTime = actions.filter((index) => index.time == countTask);
-
-                    while (i < allTime.length) {
-                        keys_object(allTime[i])[1] == 'mining' ? 
-                        mining_action(allTime[i]) :
-                            (keys_object(allTime[i])[1] == 'loading' ?
-                            loading_action(allTime[i]) :
-                                (keys_object(allTime[i])[1] == 'travel' ?
-                                travel_action(allTime[i]) :
-                                    set_type_action(allTime[i])));
-
-                        // if (document.querySelectorAll(`[x="${timedX}"][y="${timedY}"]`).length > 1) {
-                        //     svg.select('.' + allTime[i].travel.move.replace('/', '\\/'))
-                        //         .transition()
-                        //         .duration(() => 300)
-                        //         .attr('y', () => document.querySelector(`.${allTime[i].travel.move.replace('/', '\\/')}`).getAttribute('y') - (marginY * 2))
-
-
-                        //     svg.select('#field' + allTime[i].travel.move.replace('/', '\\/'))
-                        //         .transition()
-                        //         .duration(() => 300)
-                        //         .attr('y', () => document.querySelector(`.${allTime[i].travel.move.replace('/', '\\/')}`).getAttribute('y') - (marginY * 2))
-                        // }
-
-                        i++;
-                    }
-                    condition.value = countTask;
-                }, countTask * speed);
-            }(countTask));
+        let count = maximumCountTask(taskLength) 
+        for (countTask = -1; countTask <= count; countTask++) {
+           loop(countTask);
         }
     })
 
@@ -290,50 +374,147 @@ allData.then((res) => {
         speed = 0;
     })
 
-    const mining_action = (allTime) => {
-        svg.select('.' + allTime.mining.from.replace('/', '\\/'))
-        .attr('raw_material', () => allTime.mining.raw_material)
-        .attr('type', () => allTime.mining.type)
+    const mining_action = (e) => {
+        const count = e.mining.raw_material;
+        const type = e.mining.type;
+        const classFrom = e.mining.from.replace('/', '\\/');
+
+        svg.select('.' + classFrom)
+        .attr('raw_material', () => count)
+        .attr('type', () => type)
     }
 
-    const loading_action = (allTime) => {
-        svg.select('.' + allTime.loading.to.replace('/', '\\/'))
-            .transition()
-            .duration(() => allTime.loading.duration * speed)
-            .attr('raw_material', () => allTime.loading.raw_material)
-            .attr('type', () => allTime.loading.type);  
+    const loading_action = (e) => {
+        const classTo = e.loading.to.replace('/', '\\/');
+        const classFrom = e.loading.from.replace('/', '\\/');
+        const durationSec = e.loading.duration;
+        const count = e.loading.raw_material;
+        const type = e.loading.type;
+        const past_raw = svg.select('.' + e.loading.from.replace('/', '\\/')).attr('raw_material');
 
-            const past_raw = svg.select('.' + allTime.loading.from.replace('/', '\\/')).attr('raw_material');
+        const lil = document.querySelector("li[class="+`${classTo}`+"]")
+        console.log(lil);
+
+        svg.select('.' + classTo)
+            .transition()
+            .duration(() => durationSec * speed)
+            .attr('raw_material', () => count)
+            .attr('type', () => type);  
             
-        svg.select('.' + allTime.loading.from.replace('/', '\\/'))
-            .attr('raw_material', past_raw - allTime.loading.raw_material)
+        svg.select('.' + classFrom)
+            .attr('raw_material', past_raw - count)
 
     }
 
-    const travel_action = (allTime) => {
+    const travel_action = (e) => {
+        const to = e.travel.to;
+        const durationSec = e.travel.duration;
+        const move = e.travel.move.replace('/', '\\/')
 
-        svg.select('.' + allTime.travel.move.replace('/', '\\/'))
+        svg.select('.' + move)
             .transition()
-            .duration(() => allTime.travel.duration * speed)
-            .attr('x', () => node_x(allTime.travel.to) - marginX)
-            .attr('y', () => node_y(allTime.travel.to) - marginY);
+            .duration(() => durationSec * speed)
+            .attr('x', () => node_x(to) - marginX)
+            .attr('y', () => node_y(to) - marginY);
 
-        svg.select('#field' + allTime.travel.move.replace('/', '\\/'))
+        svg.select('#field' + move)
             .transition()
-            .duration(() => allTime.travel.duration * speed)
-            .attr('x', () => node_x(allTime.travel.to) - marginX)
-            .attr('y', () => node_y(allTime.travel.to) - marginY);
+            .duration(() => durationSec * speed)
+            .attr('x', () => node_x(to) - marginX)
+            .attr('y', () => node_y(to) - marginY);
 
 
 
     }
-    const set_type_action = (allTime) => {
-        svg.select('.' + allTime.set_new_type.to.replace('/', '\\/'))
+    const set_type_action = (e) => {
+        const classTo = e.set_new_type.to.replace('/', '\\/');
+        const duration = e.set_new_type.duration;
+        const count = e.set_new_type.raw_material;
+        const type = e.set_new_type.type;
+
+        svg.select('.' + classTo)
             .transition()
-            .duration(() => allTime.set_new_type.duration * speed)
-            .attr('raw_material', () => allTime.set_new_type.raw_material)
-            .attr('type', () => allTime.set_new_type.type);
+            .duration(() => duration * speed)
+            .attr('raw_material', () => count)
+            .attr('type', () => type);
     }
+
+    const modal_objects = svg.selectAll('image');
+    modal_objects.on('click', (e) => {
+
+        const modal_window = document.createElement('div');
+        modal_window.setAttribute('class','modal-view');
+        
+        const modalX = e.pageX;
+        const modalY = e.pageY;
+
+        const imgText = document.createElement('p');
+        imgText.textContent = e.target.getAttribute('class');
+
+        const closeButton = document.createElement('button');
+        closeButton.setAttribute('class','xBtn');
+        closeButton.innerHTML = 'X';
+
+        const modal_info = document.createElement('ul');
+        const raw_count = document.createElement('li');
+        const raw_type = document.createElement('li');
+        raw_count.textContent = "Количество руды: " + e.target.getAttribute('raw_material')
+        raw_type.textContent = "Концентрация: " + e.target.getAttribute('type')
+
+
+
+        document.body.appendChild(modal_window);
+        modal_window.style.display = 'flex';
+        modal_window.style.position = 'absolute';
+        modal_window.style.left = modalX - 200 + 'px';
+        modal_window.style.top = modalY - 100 + 'px';
+
+        modal_window.appendChild(imgText);
+        modal_window.appendChild(modal_info);
+        modal_info.append(raw_count, raw_type)
+        modal_window.appendChild(closeButton);
+
+        let buttonX = document.querySelectorAll('.xBtn');
+        buttonX.forEach(index => {
+            index.addEventListener('click', (e) => { 
+                document.body.removeChild(e.target.parentNode);
+            });
+        })
+    })
+
+    const header = document.querySelector('.header');
+    const table = document.querySelector('.table');
+    const headerNavItems = document.querySelectorAll('.column-p');
+    const lists = document.querySelector('.lists');
+
+    header.addEventListener('mousedown', getHeaderY);
+
+    function getHeaderY(e) {
+        let flag = true;
+        for (i of headerNavItems) {
+            if (e.target == i) {
+                flag = false;
+            }
+        }
+        if (flag) {
+            header.removeEventListener('mousedown', getHeaderY);
+            document.addEventListener('mousemove', mouseMove);
+            document.addEventListener('mouseup', e => {
+                document.removeEventListener('mousemove', mouseMove)
+                header.addEventListener('mousedown', getHeaderY);
+            }, { once: true })
+        }
+
+    }
+
+    function mouseMove(ev) {
+
+        let heito = window.innerHeight - ev.clientY;
+        table.style.height = heito + 'px';
+        lists.style.height = heito - 80 + 'px';
+        console.log( lists.style.height);
+    }
+
 
     // svg.selectAll('line').raise();
     svg.selectAll('text').raise();
