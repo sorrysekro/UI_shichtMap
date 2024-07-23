@@ -301,7 +301,7 @@ let i = 0;
         timeStart.textContent = 1;
         timeEnd.textContent = 2;
         locationFrom.textContent = index.node;
-        locationTo.textContent = "nahuy"
+        locationTo.textContent = "Не движется"
         count.textContent = 1000
         type.textContent = 1
         console.log(i);
