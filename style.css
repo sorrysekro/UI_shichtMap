@@ -6,7 +6,7 @@ body{
 .content{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    
 }
 
 .btnDownload{
@@ -52,7 +52,7 @@ svg image{
 }
 
 .field{
-    font-size: 24px;
+    font-size: 12px;
     fill: white;
 }
 
@@ -62,9 +62,9 @@ svg image{
     flex-direction: column;
     justify-content: space-between;
     position: fixed;
-    height: 120px;
+    height: 70px;
     max-height: 120px;
-    width: 400px;
+    width: 300px;
     left: 43%;
     top: 1%;
     background-color: rgb(34, 34, 34);
@@ -79,7 +79,7 @@ svg image{
 
 .btn-block{
     width: 100%;
-    height: 80px;
+    height: 40px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -91,14 +91,14 @@ svg image{
 }
 
 IMG#player-button{
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     margin-right: 15px;
 }
 
 #condition{
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 20px;
     text-align: center;
     color: white;
     background-color: rgb(34, 34, 34);
@@ -109,11 +109,10 @@ IMG#player-button{
 }
 
 .table {
-    height: 500px;
+    height: 300px;
     width: 100%;
-    min-height: 200px;
-    min-width: 3200px;
-    max-height: 1200px;
+    min-height: 40px;
+    max-height: 700px;
     background-color: white;
     position: fixed;
     bottom: 0%;
@@ -123,15 +122,18 @@ IMG#player-button{
 
 
 .header {
-    height: 80px;
-    width: 100%;
+    height: 40px;
+    width: 98%;
     display: flex;
     justify-content: space-evenly;
-    margin-left: 100px;
-    margin-right: 100px;
     border-bottom: 1px solid grey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 12px;
+}
+
+.column-p{
+    width: 100px;
+    text-align: center;
 }
 
 
@@ -147,14 +149,20 @@ IMG#player-button{
 }
 
 .lists{
-    width: 100%;
+    width: 98%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     overflow-y: scroll;
     height: 420px;
-    min-height: 80px;
-    max-height: 1100px;
+    min-height: 40px;
+    max-height: 700px;
+}
+
+#list{
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
 }
 
 .content-table-right {
@@ -174,15 +182,15 @@ IMG#player-button{
     display: flex;
     justify-content: space-between;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 24px;
+    font-size: 12px;
     border-bottom: 1px solid grey;
 }
 
 #searchInput {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 12px;
     text-decoration-color: white;
-    height: 60px;
+    height: 20px;
     width: 90%;
     border-radius: 20px;
 }
@@ -201,7 +209,7 @@ IMG#player-button{
 
 .scroll{
     overflow: visible;
-    padding: 10px;
+    padding: 5px;
     width: 80%;
     height: 20px;
 }
@@ -213,30 +221,23 @@ IMG#player-button{
 .nav-line{
     fill: white;
     stroke: grey;
-    stroke-width: 5px;
+    stroke-width: 2px;
 }
 
 .xBtn{
     font-size: 12px;
     color: white;
     height: 20px;
-    border: solid;
+    /* border: solid; */
     border-radius: 5px;
     background-color: black;
     cursor: pointer;
+    position: inherit;
+    right: 10px;
+    top: 0;
 }
 
 ul{
     padding-left: 20px;
     padding-right: 20px;
 }
-
-#list{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 110%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-}
-
