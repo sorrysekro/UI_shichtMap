@@ -1,0 +1,1488 @@
+{
+    "Сектор_СКМ_01": {
+        "capacity": 0,
+        "max_capacity": 10100,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_СКМ_02": {
+        "capacity": 0,
+        "max_capacity": 10300,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_СКМ_03": {
+        "capacity": 0,
+        "max_capacity": 9800,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_СКМ_04": {
+        "capacity": 0,
+        "max_capacity": 9600,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_СКМ_05": {
+        "capacity": 0,
+        "max_capacity": 9800,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_СКМ_06": {
+        "capacity": 0,
+        "max_capacity": 10300,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_СКМ_07": {
+        "capacity": 0,
+        "max_capacity": 10100,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_СКМ_08": {
+        "capacity": 0,
+        "max_capacity": 10400,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_СКМ_09": {
+        "capacity": 0,
+        "max_capacity": 10000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_СКМ_10": {
+        "capacity": 0,
+        "max_capacity": 10200,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_СКМ_11": {
+        "capacity": 0,
+        "max_capacity": 10500,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_СКМ_12": {
+        "capacity": 0,
+        "max_capacity": 9500,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_СКМ_1/01": {
+        "capacity": 0,
+        "max_capacity": 2000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_СКМ_1/02": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_СКМ_1/03": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_СКМ_1/04": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Склад_СКМ_2/01": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/stoneheap.svg",
+        "type": null,
+        "remains": null
+    },
+    "Склад_СКМ_2/02": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/stoneheap.svg",
+        "type": null,
+        "remains": null
+    },
+    "Станция_Северная": {
+        "capacity": 0,
+        "max_capacity": null,
+        "color": "#f29a3a",
+        "image": null,
+        "type": null,
+        "remains": null
+    },
+    "Отвал_3": {
+        "capacity": 0,
+        "max_capacity": 10000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_СКМ_2/01": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/excavator.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_СКМ_2/02": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/excavator.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Северный_01": {
+        "capacity": 0,
+        "max_capacity": 15000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Северный_02": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Северный_03": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Северный_04": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Северный_05": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Северный_06": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Северный_07": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Северный_08": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Северный_09": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Северный_10": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Северный_11": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Северный_12": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_Северный_1/01": {
+        "capacity": 0,
+        "max_capacity": 2000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_Северный_1/02": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_Северный_1/03": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_Северный_1/04": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Склад_Северный_2/01": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/stoneheap.svg",
+        "type": null,
+        "remains": null
+    },
+    "Склад_Северный_2/02": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/stoneheap.svg",
+        "type": null,
+        "remains": null
+    },
+    "Склад_Северный_2/03": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/stoneheap.svg",
+        "type": null,
+        "remains": null
+    },
+    "Станция_Рудная": {
+        "capacity": 0,
+        "max_capacity": null,
+        "color": "#f29a3a",
+        "image": null,
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Северный_2/01": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/excavator.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Северный_2/02": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/excavator.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Северный_2/03": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/excavator.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Главный_01": {
+        "capacity": 0,
+        "max_capacity": 15000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Главный_02": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Главный_03": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Главный_04": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Главный_05": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Главный_06": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Главный_07": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Главный_08": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Главный_09": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Главный_10": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Главный_11": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Главный_12": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_Главный_1/01": {
+        "capacity": 0,
+        "max_capacity": 2000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_Главный_1/02": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_Главный_1/03": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_Главный_1/04": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Склад_Главный_2/01": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/stoneheap.svg",
+        "type": null,
+        "remains": null
+    },
+    "Склад_Главный_2/02": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/stoneheap.svg",
+        "type": null,
+        "remains": null
+    },
+    "Склад_Главный_2/03": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/stoneheap.svg",
+        "type": null,
+        "remains": null
+    },
+    "Станция_Глубокая": {
+        "capacity": 0,
+        "max_capacity": null,
+        "color": "#f29a3a",
+        "image": null,
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Главный_2/01": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/excavator.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Главный_2/02": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/excavator.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Главный_2/03": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/excavator.svg",
+        "type": null,
+        "remains": null
+    },
+    "Станция_Верхняя": {
+        "capacity": 0,
+        "max_capacity": null,
+        "color": "#f29a3a",
+        "image": null,
+        "type": null,
+        "remains": null
+    },
+    "Станция_Карьерная": {
+        "capacity": 0,
+        "max_capacity": null,
+        "color": "#f29a3a",
+        "image": null,
+        "type": null,
+        "remains": null
+    },
+    "Отвал_1": {
+        "capacity": 0,
+        "max_capacity": 10000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Отвал_2": {
+        "capacity": 0,
+        "max_capacity": 10000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Западный_01": {
+        "capacity": 0,
+        "max_capacity": 15000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Западный_02": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Западный_03": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Западный_04": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Западный_05": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Западный_06": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Западный_07": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Западный_08": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Западный_09": {
+        "capacity": 0,
+        "max_capacity": 16000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Западный_10": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Западный_11": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Западный_12": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_Западный_1/01": {
+        "capacity": 0,
+        "max_capacity": 2000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_Западный_1/02": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_Западный_1/03": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_Западный_1/04": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Склад_Западный_2/01": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/stoneheap.svg",
+        "type": null,
+        "remains": null
+    },
+    "Склад_Западный_2/02": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/stoneheap.svg",
+        "type": null,
+        "remains": null
+    },
+    "Склад_Западный_2/03": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/stoneheap.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Западный_1/01": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/excavator.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Западный_1/02": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/excavator.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Западный_1/03": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/excavator.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Западный_1/04": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/excavator.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Западный_2/01": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/excavator.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Западный_2/02": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/excavator.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Западный_2/03": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/excavator.svg",
+        "type": null,
+        "remains": null
+    },
+    "Станция_Западная": {
+        "capacity": 0,
+        "max_capacity": null,
+        "color": "#f29a3a",
+        "image": null,
+        "type": null,
+        "remains": null
+    },
+    "Станция_Южная": {
+        "capacity": 0,
+        "max_capacity": null,
+        "color": "#f29a3a",
+        "image": null,
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Южная_01": {
+        "capacity": 0,
+        "max_capacity": 15000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Южная_02": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Южная_03": {
+        "capacity": 0,
+        "max_capacity": 16000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Южная_04": {
+        "capacity": 0,
+        "max_capacity": 17000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Южная_05": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Южная_06": {
+        "capacity": 0,
+        "max_capacity": 13000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Южная_07": {
+        "capacity": 0,
+        "max_capacity": 17000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Южная_08": {
+        "capacity": 0,
+        "max_capacity": 19000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Южная_09": {
+        "capacity": 0,
+        "max_capacity": 15000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Южная_10": {
+        "capacity": 0,
+        "max_capacity": 16000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Южная_11": {
+        "capacity": 0,
+        "max_capacity": 17000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Сектор_Южная_12": {
+        "capacity": 0,
+        "max_capacity": 18000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/shaft.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_Южная_1/01": {
+        "capacity": 0,
+        "max_capacity": 2000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_Южная_1/02": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_Южная_1/03": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Развал_Южная_1/04": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/unloading_dump.svg",
+        "type": null,
+        "remains": null
+    },
+    "Склад_Южная_2/01": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/stoneheap.svg",
+        "type": null,
+        "remains": null
+    },
+    "Склад_Южная_2/02": {
+        "capacity": 0,
+        "max_capacity": 4000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/stoneheap.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Южная_2/01": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/excavator.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Южная_2/02": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/excavator.svg",
+        "type": null,
+        "remains": null
+    },
+    "Станция_Дробильная": {
+        "capacity": 0,
+        "max_capacity": 100000,
+        "color": "#f29a3a",
+        "image": null,
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_СКМ_01": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_СКМ_02": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_СКМ_03": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_СКМ_04": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_СКМ_1": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_СКМ_2": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_СКМ_3": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_СКМ_4": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "Вертушка_1": {
+        "capacity": 0,
+        "max_capacity": 1050,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/train.svg",
+        "type": null,
+        "remains": null
+    },
+    "Вертушка_2": {
+        "capacity": 0,
+        "max_capacity": 1050,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/train.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Северный_01": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Северный_02": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Северный_03": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Северный_04": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_Северный_1": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_Северный_2": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_Северный_3": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_Северный_4": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "Вертушка_3": {
+        "capacity": 0,
+        "max_capacity": 1050,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/train.svg",
+        "type": null,
+        "remains": null
+    },
+    "Вертушка_4": {
+        "capacity": 0,
+        "max_capacity": 1050,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/train.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Главный_01": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Главный_02": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Главный_03": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Главный_04": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_Главный_1": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_Главный_2": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_Главный_3": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_Главный_4": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "Вертушка_5": {
+        "capacity": 0,
+        "max_capacity": 1050,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/train.svg",
+        "type": null,
+        "remains": null
+    },
+    "Вертушка_6": {
+        "capacity": 0,
+        "max_capacity": 1050,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/train.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Западный_01": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Западный_02": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Западный_03": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Западный_04": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_Западный_1": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_Западный_2": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_Западный_3": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_Западный_4": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "Вертушка_7": {
+        "capacity": 0,
+        "max_capacity": 1050,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/train.svg",
+        "type": null,
+        "remains": null
+    },
+    "Вертушка_8": {
+        "capacity": 0,
+        "max_capacity": 1050,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/train.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Южная_01": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Южная_02": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Южная_03": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "ЭКГ_Южная_04": {
+        "capacity": 0,
+        "max_capacity": 60,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/lhd.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_Южная_1": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_Южная_2": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_Южная_3": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "АС_Южная_4": {
+        "capacity": 0,
+        "max_capacity": 240,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/truck.svg",
+        "type": null,
+        "remains": null
+    },
+    "Вертушка_9": {
+        "capacity": 0,
+        "max_capacity": 1050,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/train.svg",
+        "type": null,
+        "remains": null
+    },
+    "Вертушка_10": {
+        "capacity": 0,
+        "max_capacity": 1050,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/train.svg",
+        "type": null,
+        "remains": null
+    },
+    "Бункер_1": {
+        "capacity": 0,
+        "max_capacity": null,
+        "color": "#f29a3a",
+        "image": null,
+        "type": null,
+        "remains": null
+    },
+    "Бункер_2": {
+        "capacity": 0,
+        "max_capacity": null,
+        "color": "#f29a3a",
+        "image": null,
+        "type": null,
+        "remains": null
+    },
+    "Бункер_3": {
+        "capacity": 0,
+        "max_capacity": null,
+        "color": "#f29a3a",
+        "image": null,
+        "type": null,
+        "remains": null
+    },
+    "СР_1_1": {
+        "capacity": 0,
+        "max_capacity": 10000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/funnel.svg",
+        "type": null,
+        "remains": null
+    },"СР_1_2": {
+        "capacity": 0,
+        "max_capacity": 10000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/funnel.svg",
+        "type": null,
+        "remains": null
+    },"СР_2_1": {
+        "capacity": 0,
+        "max_capacity": 10000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/funnel.svg",
+        "type": null,
+        "remains": null
+    },
+    "СР_3_1": {
+        "capacity": 0,
+        "max_capacity": 10000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/funnel.svg",
+        "type": null,
+        "remains": null
+    },
+    "СР_3_2": {
+        "capacity": 0,
+        "max_capacity": 10000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/funnel.svg",
+        "type": null,
+        "remains": null
+    },
+    "Бункер_КСМД": {
+        "capacity": 0,
+        "max_capacity": 100000,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/crusher.svg",
+        "type": null,
+        "remains": null
+    },
+    "БД_1_1": {
+        "capacity": 0,
+        "max_capacity": 200,
+        "color": "#f29a3a",
+        "image": null,
+        "type": null,
+        "remains": null
+    },
+    "БД_1_2": {
+        "capacity": 0,
+        "max_capacity": 200,
+        "color": "#f29a3a",
+        "image": null,
+        "type": null,
+        "remains": null
+    },
+    "БД_2_1": {
+        "capacity": 0,
+        "max_capacity": 200,
+        "color": "#f29a3a",
+        "image": null,
+        "type": null,
+        "remains": null
+    },
+    "БД_3_1": {
+        "capacity": 0,
+        "max_capacity": 200,
+        "color": "#f29a3a",
+        "image": null,
+        "type": null,
+        "remains": null
+    },
+    "БД_3_2": {
+        "capacity": 0,
+        "max_capacity": 200,
+        "color": "#f29a3a",
+        "image": null,
+        "type": null,
+        "remains": null
+    },
+    "Конвейер": {
+        "capacity": 0,
+        "max_capacity": 200,
+        "color": "#f29a3a",
+        "image": "../ui shicht/pics/conveyor.svg",
+        "type": null,
+        "remains": null
+    }
+}

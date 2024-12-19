@@ -1,0 +1,302 @@
+[
+    {
+        "id": "ЭКГ_Северный_01",
+        "node": "Сектор_Северный_01",
+        "color": "#3d46f5",
+        "image": "./ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "ЭКГ_Северный_02",
+        "node": "Сектор_Северный_04",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "ЭКГ_Северный_03",
+        "node": "Сектор_Северный_07",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "ЭКГ_Северный_04",
+        "node": "Сектор_Северный_10",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "АС_Северный_1",
+        "node": "Развал_Северный_1/01",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "АС_Северный_2",
+        "node": "Развал_Северный_1/02",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "АС_Северный_3",
+        "node": "Развал_Северный_1/03",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "АС_Северный_4",
+        "node": "Развал_Северный_1/04",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "Вертушка_3",
+        "node": "Склад_Северный_2/01",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/train.svg"
+    },
+    {
+        "id": "Вертушка_4",
+        "node": "Склад_Северный_2/02",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/train.svg"
+    },
+    {
+        "id": "ЭКГ_СКМ_01",
+        "node": "Сектор_СКМ_01",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "ЭКГ_СКМ_02",
+        "node": "Сектор_СКМ_04",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "ЭКГ_СКМ_03",
+        "node": "Сектор_СКМ_07",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "ЭКГ_СКМ_04",
+        "node": "Сектор_СКМ_10",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "АС_СКМ_1",
+        "node": "Развал_СКМ_1/01",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "АС_СКМ_2",
+        "node": "Развал_СКМ_1/02",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "АС_СКМ_3",
+        "node": "Развал_СКМ_1/03",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "АС_СКМ_4",
+        "node": "Развал_СКМ_1/04",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "Вертушка_1",
+        "node": "Склад_СКМ_2/01",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/train.svg"
+    },
+    {
+        "id": "Вертушка_2",
+        "node": "Склад_СКМ_2/02",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/train.svg"
+    },
+    {
+        "id": "ЭКГ_Главный_01",
+        "node": "Сектор_Главный_01",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "ЭКГ_Главный_02",
+        "node": "Сектор_Главный_04",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "ЭКГ_Главный_03",
+        "node": "Сектор_Главный_07",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "ЭКГ_Главный_04",
+        "node": "Сектор_Главный_10",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "АС_Главный_1",
+        "node": "Развал_Главный_1/01",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "АС_Главный_2",
+        "node": "Развал_Главный_1/02",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "АС_Главный_3",
+        "node": "Развал_Главный_1/03",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "АС_Главный_4",
+        "node": "Развал_Главный_1/04",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "Вертушка_5",
+        "node": "Склад_Главный_2/01",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/train.svg"
+    },
+    {
+        "id": "Вертушка_6",
+        "node": "Склад_Главный_2/02",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/train.svg"
+    },
+    {
+        "id": "ЭКГ_Западный_01",
+        "node": "Сектор_Западный_01",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "ЭКГ_Западный_02",
+        "node": "Сектор_Западный_04",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "ЭКГ_Западный_03",
+        "node": "Сектор_Западный_07",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "ЭКГ_Западный_04",
+        "node": "Сектор_Западный_10",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "АС_Западный_1",
+        "node": "Развал_Западный_1/01",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "АС_Западный_2",
+        "node": "Развал_Западный_1/02",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "АС_Западный_3",
+        "node": "Развал_Западный_1/03",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "АС_Западный_4",
+        "node": "Развал_Западный_1/04",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "Вертушка_7",
+        "node": "Склад_Западный_2/01",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/train.svg"
+    },
+    {
+        "id": "Вертушка_8",
+        "node": "Склад_Западный_2/02",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/train.svg"
+    },
+    {
+        "id": "ЭКГ_Южная_01",
+        "node": "Сектор_Южная_01",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "ЭКГ_Южная_02",
+        "node": "Сектор_Южная_04",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "ЭКГ_Южная_03",
+        "node": "Сектор_Южная_07",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "ЭКГ_Южная_04",
+        "node": "Сектор_Южная_10",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/lhd.svg"
+    },
+    {
+        "id": "АС_Южная_1",
+        "node": "Развал_Южная_1/01",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "АС_Южная_2",
+        "node": "Развал_Южная_1/02",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "АС_Южная_3",
+        "node": "Развал_Южная_1/03",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "АС_Южная_4",
+        "node": "Развал_Южная_1/04",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/truck.svg"
+    },
+    {
+        "id": "Вертушка_9",
+        "node": "Склад_Южная_2/01",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/train.svg"
+    },
+    {
+        "id": "Вертушка_10",
+        "node": "Склад_Южная_2/02",
+        "color": "#3d46f5",
+        "image": "../ui shicht/pics/train.svg"
+    }
+]

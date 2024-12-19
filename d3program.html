@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="player-panel">
+            <div class="panel">
+                <div class="btn-block">
+                    <img class="play-forward-back" id="player-button" src="./icons/play-forward-inverse.svg" alt="play-forward-back">
+                    <img class="play-pause-back" id="player-button" src="./icons/play-pause-inverse.svg" alt="play-pause-back">
+                    <img class="play-pause" id="player-button" src="./icons/play-pause.svg" alt="play-pause">
+                    <img class="play-forward" id="player-button" src="./icons/play-forward.svg" alt="play-forward">
+                    <img class="refresh-button" id="player-button" src="./icons/refresh.svg" alt="refresh-button">
+    
+                    <input type="text" name="count" id="condition" value="-1">
+                </div>
+    
+                <div class="scroll-bar">
+                    <svg class="scroll">
+                        <line class="nav-line" x1="0" y1="0" x2="240" y2="0"></line>
+                        <circle class="nav-circle" r="5"></circle>
+                    </svg>
+                </div>
+            </div>
+            <button class="btnDownload" download>Save</button>
+            <input type="file" name="" class="upload" value="">
+        </div>
+
+        <div class="modal-view">
+        </div>
+
+        <svg id="d3_line"></svg>
+    
+        <div class="table">
+            <div class="content-table-left">
+                <div class="header">
+                    <p class="column-p">Транспорт</p>
+                    <p class="column-p">Операция</p>
+                    <p class="column-p">Время начала</p>
+                    <p class="column-p">Время окончания</p>
+                    <p class="column-p">Пункт отправления</p>
+                    <p class="column-p">Пункт назначения</p>
+                    <p class="column-p">Текущий груз, т</p>
+                    <p class="column-p">Концентрация</p>
+                </div>
+                <div class="lists">
+                    <div id="list" class="transport"></div>
+                    <div id="list" class="action"></div>
+                    <div id="list" class="timeStart"></div>
+                    <div id="list" class="timeEnd"></div>
+                    <div id="list" class="locationFrom"></div>
+                    <div id="list" class="locationTo"></div>
+                    <div id="list" class="count"></div>
+                    <div id="list" class="type"></div>
+                </div>
+            </div>
+            <div class="content-table-right">
+                <input type="text" name="search" id="searchInput" value="Search...">
+                <div class="p-div">                
+                    <p class="h-object">Объект</p>
+                    <p class="h-count">Текущий груз, т</p>
+                    <p class="h-map">Текущий пункт</p>
+                </div>
+
+                <div class="content-block">
+                    <div class="column-object"></div>
+                    <div class="column-count"></div>
+                    <div class="column-map"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="d3.v7.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
